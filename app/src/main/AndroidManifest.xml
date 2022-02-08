@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ToolsShop">
-        <activity android:name=".DrillDetailActivity"></activity>
+        <activity android:name=".PerforatorDetailActivity"></activity>
+        <activity android:name=".PerforatorCategoryActivity" />
+        <activity android:name=".DrillDetailActivity" />
         <activity android:name=".DlirrDetailActivity" />
         <activity android:name=".DrillCategoryActivity" />
         <activity

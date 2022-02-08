@@ -29,7 +29,11 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         Intent intent = new Intent(getApplicationContext(), DrillCategoryActivity.class);
                         startActivity(intent);
-                            break;
+                        break;
+                    case 1:
+                        Intent intent1 = new Intent(getApplicationContext(), PerforatorCategoryActivity.class);
+                        startActivity(intent1);
+                        break;
                 }
             }
         });
