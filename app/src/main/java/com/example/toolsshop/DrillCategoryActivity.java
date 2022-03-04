@@ -16,8 +16,8 @@ public class DrillCategoryActivity extends AppCompatActivity {
 
     private ListView listViewDrills;
     private ArrayList <Drill> drills;
-    @Override
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drill_category);
@@ -27,9 +27,7 @@ public class DrillCategoryActivity extends AppCompatActivity {
         }
         drills = new ArrayList<>();
         drills.add(new Drill(getString(R.string.drill_interskol_title),getString(R.string.drill_interskol_info), R.drawable.interskol));
-
         drills.add(new Drill(getString(R.string.drill_makita_title),getString(R.string.drill_makita_info), R.drawable.makita));
-
         drills.add(new Drill(getString(R.string.drill_dewalt_title),getString(R.string.drill_dewalt_info), R.drawable.dewalt));
         listViewDrills = findViewById(R.id.listViewDrills);
         ArrayAdapter<Drill> adapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, drills);

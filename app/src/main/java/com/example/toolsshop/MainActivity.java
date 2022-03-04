@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent1 = new Intent(getApplicationContext(), PerforatorCategoryActivity.class);
                         startActivity(intent1);
                         break;
+                    case 2:
+                        Intent intent2 = new Intent(getApplicationContext(), BulgarianCategoryActivity.class);
+                        startActivity(intent2);
                 }
             }
         });
